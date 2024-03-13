@@ -27,7 +27,6 @@ START-OF-SELECTION.
 * Check the status of the job
 
   IF lt_jobs IS INITIAL.
-
     MESSAGE 'No Job found' TYPE 'S' DISPLAY LIKE 'E'.
     RETURN.
   ENDIF.
